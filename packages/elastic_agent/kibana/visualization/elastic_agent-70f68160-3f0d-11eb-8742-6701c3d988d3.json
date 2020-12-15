@@ -1,0 +1,56 @@
+{
+    "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+            "searchSourceJSON": {
+                "filter": [],
+                "query": {
+                    "language": "kuery",
+                    "query": ""
+                }
+            }
+        },
+        "title": "[Elastic Agent] Process selection",
+        "uiStateJSON": {},
+        "version": 1,
+        "visState": {
+            "aggs": [],
+            "params": {
+                "controls": [
+                    {
+                        "fieldName": "elastic_agent.process",
+                        "id": "1608061207767",
+                        "indexPatternRefName": "control_0_index_pattern",
+                        "label": "Process",
+                        "options": {
+                            "dynamicOptions": true,
+                            "multiselect": true,
+                            "order": "desc",
+                            "size": 5,
+                            "type": "terms"
+                        },
+                        "parent": "",
+                        "type": "list"
+                    }
+                ],
+                "pinFilters": false,
+                "updateFiltersOnChange": true,
+                "useTimeFilter": false
+            },
+            "title": "[Elastic Agent] Process selection",
+            "type": "input_control_vis"
+        }
+    },
+    "id": "elastic_agent-70f68160-3f0d-11eb-8742-6701c3d988d3",
+    "migrationVersion": {
+        "visualization": "7.10.0"
+    },
+    "references": [
+        {
+            "id": "metrics-*",
+            "name": "control_0_index_pattern",
+            "type": "index-pattern"
+        }
+    ],
+    "type": "visualization"
+}

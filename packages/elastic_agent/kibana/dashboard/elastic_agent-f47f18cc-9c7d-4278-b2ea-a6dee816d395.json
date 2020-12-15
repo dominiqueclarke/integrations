@@ -19,53 +19,68 @@
         },
         "panelsJSON": [
             {
-                "version": "8.0.0-SNAPSHOT",
+                "embeddableConfig": {
+                    "enhancements": {}
+                },
+                "gridData": {
+                    "h": 7,
+                    "i": "6235b405-69c9-4ec0-9429-ebbc83e1d6b4",
+                    "w": 48,
+                    "x": 0,
+                    "y": 0
+                },
+                "panelIndex": "6235b405-69c9-4ec0-9429-ebbc83e1d6b4",
+                "panelRefName": "panel_0",
+                "version": "8.0.0-SNAPSHOT"
+            },
+            {
+                "embeddableConfig": {
+                    "enhancements": {}
+                },
                 "gridData": {
                     "h": 16,
                     "i": "aff03363-b1bf-4d47-9325-3dff44b5e758",
                     "w": 24,
                     "x": 0,
-                    "y": 0
+                    "y": 7
                 },
                 "panelIndex": "aff03363-b1bf-4d47-9325-3dff44b5e758",
+                "panelRefName": "panel_1",
+                "version": "8.0.0-SNAPSHOT"
+            },
+            {
                 "embeddableConfig": {
                     "enhancements": {}
                 },
-                "panelRefName": "panel_0"
-            },
-            {
-                "version": "8.0.0-SNAPSHOT",
                 "gridData": {
                     "h": 16,
                     "i": "5f518ab9-9366-40e5-837b-1b5080d29da3",
                     "w": 24,
                     "x": 24,
-                    "y": 0
+                    "y": 7
                 },
                 "panelIndex": "5f518ab9-9366-40e5-837b-1b5080d29da3",
+                "panelRefName": "panel_2",
+                "version": "8.0.0-SNAPSHOT"
+            },
+            {
                 "embeddableConfig": {
                     "enhancements": {}
                 },
-                "panelRefName": "panel_1"
-            },
-            {
-                "version": "8.0.0-SNAPSHOT",
                 "gridData": {
                     "h": 15,
                     "i": "9ce78b52-e345-4cfd-b2ad-9819e55aaa7a",
                     "w": 24,
                     "x": 0,
-                    "y": 16
+                    "y": 23
                 },
                 "panelIndex": "9ce78b52-e345-4cfd-b2ad-9819e55aaa7a",
-                "embeddableConfig": {
-                    "enhancements": {}
-                },
-                "panelRefName": "panel_2"
+                "panelRefName": "panel_3",
+                "version": "8.0.0-SNAPSHOT"
             }
         ],
         "timeRestore": false,
-        "title": "[Elastic Agent] Agent metrics",
+        "title": "[Metrics Elastic Agent] Agent overview",
         "version": 1
     },
     "id": "elastic_agent-f47f18cc-9c7d-4278-b2ea-a6dee816d395",
@@ -74,18 +89,23 @@
     },
     "references": [
         {
-            "id": "elastic_agent-a11c250a-865f-4eb2-9441-882d229313be",
+            "id": "elastic_agent-70f68160-3f0d-11eb-8742-6701c3d988d3",
             "name": "panel_0",
             "type": "visualization"
         },
         {
-            "id": "elastic_agent-93a8a11d-b2da-4ef3-81dc-c7040560ffde",
+            "id": "elastic_agent-a11c250a-865f-4eb2-9441-882d229313be",
             "name": "panel_1",
             "type": "visualization"
         },
         {
-            "id": "elastic_agent-47d87552-8421-4cfc-bc5d-4a7205f5b007",
+            "id": "elastic_agent-93a8a11d-b2da-4ef3-81dc-c7040560ffde",
             "name": "panel_2",
+            "type": "visualization"
+        },
+        {
+            "id": "elastic_agent-47d87552-8421-4cfc-bc5d-4a7205f5b007",
+            "name": "panel_3",
             "type": "visualization"
         }
     ],
