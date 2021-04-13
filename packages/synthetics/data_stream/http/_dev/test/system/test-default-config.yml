@@ -1,0 +1,6 @@
+input: synthetics/http
+data_stream:
+  vars:
+    name: Elastic.co
+    schedule: 1m
+    urls: http://elastic.co
