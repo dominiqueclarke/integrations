@@ -1,5 +1,9 @@
 # newer versions go on top
-- version: "0.0.3" # unreleased
+- version: "0.0.4" # unreleased
+  changes:
+    - description: add monitor.fleet_managed field for telemetry
+      type: enhancement # can be one of: enhancement, bugfix, breaking-change
+      link: https://github.com/elastic/integrations/pull/914
   changes:
     - description: adjust type of tcp data_stream check.receive field
       type: bugfix # can be one of: enhancement, bugfix, breaking-change
